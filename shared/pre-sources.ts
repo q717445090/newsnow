@@ -93,13 +93,7 @@ export const originSources = {
       },
     },
   },
-  "douyin": {
-    name: "抖音",
-    type: "hottest",
-    column: "china",
-    color: "gray",
-    home: "https://www.douyin.com",
-  },
+
   "hupu": {
     name: "虎扑",
     disable: true,
@@ -332,11 +326,13 @@ export const originSources = {
   },
   "ghxi": {
     name: "果核剥壳",
+    type: "hottest",
     column: "china",
     color: "yellow",
     disable: "cf",
     home: "https://www.ghxi.com/",
   },
+
 } as const satisfies Record<string, OriginSource>
 
 export function genSources() {
