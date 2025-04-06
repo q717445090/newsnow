@@ -108,14 +108,7 @@
     "interval": 600000,
     "title": "快讯"
   },
-  "douyin": {
-    "name": "抖音",
-    "type": "hottest",
-    "column": "china",
-    "home": "https://www.douyin.com",
-    "color": "gray",
-    "interval": 600000
-  },
+ 
   "tieba": {
     "title": "热议",
     "name": "百度贴吧",
@@ -415,9 +408,11 @@
     "interval": 1800000,
     "title": "今日最热"
   },
+
   "ghxi": {
     "name": "果核剥壳",
-    "disable": "cf",
+    "type": "hottest",
+
     "column": "china",
     "home": "https://www.ghxi.com/",
     "color": "yellow",
